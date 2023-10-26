@@ -16,7 +16,6 @@ def main():
             print(f'The encoded password is {encoded}, and the original password is {decoded}.')
             print()
 
-
 def print_menu():
     print('Menu')
     print('-' * 13)
