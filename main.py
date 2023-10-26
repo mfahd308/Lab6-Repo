@@ -35,6 +35,9 @@ def encode(password):
     return encoded
 
 
+def decode(encoded_password: str) -> str:
+    if len(encoded_password) != 8 or not encoded_password.isdigit():
+        raise ValueError("The encoded password must be an 8-digit integer string.")
 
 if __name__ == '__main__':
     main()
